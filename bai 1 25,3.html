@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/hiep.html/lam.css/bai4 .css">
+</head>
+
+<body>
+    <table class="header">
+        <td>
+            <a href="">Giới Thiệu <div class="a">|</div></a>
+        </td>
+        <td>
+            <a href="">Tin Tức <div class="a">|</div> </a>
+        </td>
+        <td>
+            <a href="">Thành Viên <div class="a">|</div></a>
+        </td>
+        <td>
+            <a href="">Thống Kê <div class="a">|</div></a>
+        </td>
+        <td>
+            <a href="">Thăm dò ý kiến <div class="a">|</div></a>
+        </td>
+        <td><a href="">Tìm Kiếm <div class="a">|</div></a></td>
+        <td><a href="">Liên Hệ </a></td>
+    </table>
+    <table class="menu">
+        <td>Thứ hai,25/03/2023,1:00</td>
+        <td><input type="text" placeholder="Tìm kiếm..."></td>
+    </table>
+    <div class="content">
+        <div class="side_1">
+            <div class="link">
+                <a href="">Tin tức</a> <br>
+                <a href="">Sản phẩm</a> <br>
+                <a href="">Đối tác</a> <br>
+                <a href="">Tuyển dụng</a>
+            </div>
+            <img src= "/anh-1 (2).png" alt ="" style="height:300px; width: 300px;"> <br>
+            <img src="anh-2.png" alt="" style="height: 500px; width: 400px;">
+        </div>
+        <div class="mid">
+            <div class="p1">
+                <div class="img_1">
+                    <img src="anh-10.jpeg" alt="" style="height: 400px;"  width:  300px >
+                    <h1>Học lập trình tại Zent có gì mới?</h1>
+                    <p>Phương pháp học tập hoàn toàn mới, với đội ngũ giảng viên, trợ giảng nhiệt tình mang lại nhiều
+                        kiến thức bổ ích cho học viên. Bên cạnh đó, Zent còn hỗ trợ tối đa giới thiệu việc làm cho học
+                        viên sau khi tốt nghiệp</p>
+                </div>
+                <div class="img_2">* Hãy hỗ trợ thành đối tác của Zent
+                    <img src="anh-9.png" alt="">
+                </div>
+                <div class="img_3">* Học viên Zent đã làm việc tại đâu?
+                    <img src="anh-4 (1).png" alt="">
+                </div>
+                <div class="img_4">* Tuyển dụng kỹ sư lập trình CNTT
+                    <img src="/anh-5.png" alt="">
+                </div>
+                <div class="img_5">* Khoá học lập trình C cơ bản miễn phí
+                    <img src="/anh-6.png" alt="">
+                </div>
+                <div class="img_6">* Hãy trở thành đối tác của Zent
+                    <img src="/anh-6.png" alt="">
+                </div>
+            </div>
+            <div class="p2"> <img src="" alt=""
+                    style="width: 827.575px;"></div>
+            <div class="p3">
+                <div>Tin tức hợp tác</div>
+            </div>
+        </div>
+        <div class="side_2">
+            <div>
+                <h1>Giới thiệu Zent</h1>
+                <p>ZENT EDUCATION được thành lập với
+                    triết lý "Không cứ phải là thần
+                    đồng, không cứ phải là giàu có chỉ cần có phương pháp
+                    giáo dục đúng đắn, tích cực mọi đứa trẻ đều sẽ trở thành
+                    nhân tài" được viết trong cuốn sách nổi tiếng "Em phải đến Harvard học kinh tế"</p>
+                <img src="/anh-8.png" alt="" style="height:300px; width: 300px;">
+                <img src="/anh-2.png" alt="" style="height: 500px; width: 300px;">
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    
+*{
+    margin: 3px;
+}
+.header{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+    font-size: 18px;
+}
+.header td{
+    padding: 10px;
+}
+.a{
+    display: inline;
+    padding: 10px;
+}
+td a{
+    text-decoration: none;
+}
+.menu{
+    background-color: rgba(236, 228, 228, 0.934);
+    width: 100%;
+    border:2px solid;
+    font-size: 17px;
+   
+}
+[placeholder="Tìm kiếm..."]{
+    width: 300px;
+    height: 30px;
+    margin-left:64rem;
+}
+.side_1 .link{
+    background-color: rgb(77, 67, 151);
+    text-decoration: none;
+}
+.side_1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color:aliceblue;
+}
+.content{
+    display: grid;
+    grid-template-columns: repace(auto );
+}
+.side_1{
+    grid-column: 1/2;
+    border:2px solid;
+}
+.mid{
+    grid-column: 2/5;
+    border: 2px solid;
+    display: grid;
+    grid-template-rows: (10 auto);
+}
+.side_2{
+    grid-column: 5/6;
+    border: 2px solid;
+}
+.side_2 p{
+    font-size: 25px;
+}
+.img_1{
+    grid-column: 1/2;
+}
+.img_2{
+    grid-column: 2/3;
+}
+.img_3{
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.p1{
+    border: 2px solid;
+}
+.p2{
+    border: 2px solid;
+}
+.p3{
+    border: 2px solid;}
+</style>
+
+</html>
